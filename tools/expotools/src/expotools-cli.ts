@@ -87,7 +87,7 @@ async function runAsync() {
         option.description = `\n  ${chalk.yellow(option.description.trim())}\n`;
       });
     });
- 
+
     program.parse(process.argv);
 
     const subCommand = process.argv[2];

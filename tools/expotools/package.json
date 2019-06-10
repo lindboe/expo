@@ -10,10 +10,10 @@
     "templates"
   ],
   "scripts": {
-    "build": "tsc --watch",
+    "build": "tsc",
+    "watch": "tsc --watch",
     "clean": "rm -rf build",
-    "et": "bin/expotools.js",
-    "prepare": "tsc"
+    "et": "bin/expotools.js"
   },
   "bin": {
     "et": "bin/expotools.js",
@@ -23,7 +23,7 @@
   "license": "MIT",
   "dependencies": {
     "@expo/json-file": "^8.0.0",
-    "@expo/spawn-async": "^1.4.0",
+    "@expo/spawn-async": "^1.5.0",
     "@expo/xdl": "^54.0.0",
     "@types/base-64": "^0.1.2",
     "@types/concat-stream": "^1.6.0",

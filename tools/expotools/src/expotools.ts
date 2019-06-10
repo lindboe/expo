@@ -7,6 +7,7 @@ import * as HashDirectory from './HashDirectory';
 import * as IOSSimulator from './IOSSimulator';
 import * as IOSSimulatorTestSuite from './IOSSimulatorTestSuite';
 import * as Log from './Log';
+import * as ProjectVersions from './ProjectVersions';
 import * as S3 from './S3';
 import * as TestServer from './TestServer';
 import * as TestSuite from './TestSuite';
@@ -21,6 +22,7 @@ export {
   IOSSimulator,
   IOSSimulatorTestSuite,
   Log,
+  ProjectVersions,
   S3,
   TestServer,
   TestSuite,
